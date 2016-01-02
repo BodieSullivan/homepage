@@ -5,7 +5,7 @@ var express         = require('express');
 var app             = express();
 var bodyParser      = require('body-parser');
 var methodOverride  = require('method-override');
-var Nerd            = require('./models/nerd');
+var Link             = require('./models/link');
 var mongoose        = require('mongoose');
 
 

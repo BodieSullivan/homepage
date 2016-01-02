@@ -1,0 +1,12 @@
+<div class="jumbotron text-center">
+    <h1>Links</h1>
+
+
+    <p data-ng-repeat="link in allLinks">{{ link.name }}</p>
+
+    <input type="text" data-ng-model="link.name"/>
+    <input type="text" data-ng-model="link.utl"/>
+
+    <button class="btn btn-success" data-ng-click="saveLink()">Save</button>
+
+</div>
