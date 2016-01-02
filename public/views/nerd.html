@@ -1,0 +1,12 @@
+<!-- public/views/nerd.html -->
+
+<div class="jumbotron text-center">
+    <h1>Nerds and Proud</h1>
+
+
+    <p data-ng-repeat="nerd in allNerds">{{ nerd.name }}</p>
+
+    <input type="text" data-ng-model="nerd.name"/>
+    <button class="btn btn-success" data-ng-click="saveNerd()">Save</button>
+
+</div>
